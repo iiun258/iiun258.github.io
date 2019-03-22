@@ -2,21 +2,39 @@
 <html lang="ko"> 
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"/> 
 <style> table, thead, tbody, tfoot, tr, th, td {
-border: 1px solid black; border-collapse: collapse;
-}
+ border: 1px solid black; border-collapse: collapse;
+ }
 </style> <!-- border-collapse: collapse 단선으로, 반대는 separate --> 
-<title> HTML5 고급 테이블 실습 </title> </head> 
+<title> 시간표 </title> </head> 
 <body> 
 <table> 
-<caption> 표1. 한국 대도시 정보현황 </caption> 
+<caption> 시간표 </caption> 
 <thead>
- <tr><th> 도시명 </th><th> 면적 </th><th> 인구수 </th><th> 위도 </th><th> 경도 </th></tr> 
+ <tr><th> 교시(시간) </th><th> 월 </th><th> 화 </th><th> 수 </th><th> 목 </th><th> 금 </th></tr> 
 </thead> 
 <tbody>
- <tr><td>서울</td><td>605.25</td><td>10290만</td><td>37.566673</td><td>126.978417</td></tr> 
- <tr><td>부산</td><td>765.82</td><td>355만</td><td>35.179783</td><td>129.075000</td></tr>
- <tr><td>대전</td><td>539.84</td><td>153만</td><td>36.350469</td><td>127.384826</td></tr> 
-</tbody> 
+ <tr><td>1교시</br>(AM 09:00 ~ AM 09:50)</td><td></td><td rowspan="2">유형 : 전공선택</br>과목명 : 오토마타와 응용</br>교수명 : 황선명</br>강의실 : 융합과학관(24호관)-402호</td>
+     <td rowspan="2">유형 : 전공필수</br>과목명 : 자료구조 및 실습</br>교수명 : 이경휘</br>강의실 : 융합과학관(24호관)-414호</td><td></td><td></td></tr> 
+
+ <tr><td>2교시</br>(AM 10:00 ~ AM 10:50)</td><td></td>td rowspan="2">유형 : 전공선택</br>과목명 : 인터넷프로그래밍</br>교수명 : 우훈식</br>강의실 : 융합과학관(24호관)-403호</td>
+     <td>유형 : 전공필수</br>과목명 : 디지털논리회로</br>교수명 : 김용수</br>강의실 : 융합과학관(24호관)-401호</td></tr>
+
+ <tr><td>3교시</br>(AM 11:00 ~ AM 11:50)</td><td rowspan="2">유형 : 교양</br>과목명 : 물리학1</br>교수명 : 신재수</br>강의실 :  창학관(1호관)-302호</td>
+     <td rowspan="2">유형 : 전공필수</br>과목명 : 자료구조 및 실습</br>교수명 : 이경휘</br>강의실 : 융합과학관(24호관)-414호</td><td rowspan="2">유형 : 전공필수</br>과목명 : 디지털논리회로</br>교수명 : 김용수</br>강의실 : 융합과학관(24호관)-401호</td>
+     <td>유형 : 교양</br>과목명 : 예지학의 세계</br>교수명 : 최예열</br>강의실 : 30주년 기념관(22호관)-318호</td></tr>
+
+ <tr><td>4교시</br>(PM 12:00 ~ PM 12:50)</td><td>유형 : 전공선택</br>과목명 : 오토마타와 응용</br>교수명 : 황선명</br>강의실 : 융합과학관(24호관)-402호</td></tr>
+ 
+ <tr><td>5교시</br>(PM 01:00 ~ PM 01:50)</td><td></td><td></td><td rowspan="2">유형 : 교양</br>과목명 : 물리학2</br>교수명 : 권기홍</br>강의실 : 창학관(1호관)-302호</td><td></td><td></td></tr>
+
+ <tr><td>6교시</br>(PM 02:00 ~ PM 02:50)</td><td rowspan="4"유형 : 전공필수</br>과목명 : 자료구조 및 실습</br>교수명 : 이경휘</br>강의실 : 융합과학관(24호관)-414호</td>
+
+ <tr><td>7교시</br>(PM 03:00 ~ PM 03:50)</td>
+
+ <tr><td>8교시</br>(PM 04:00 ~ PM 04:50)</td>
+
+ <tr><td>9교시</br>(PM 05:00 ~ PM 05:50)</td>
+ </tbody> 
 <tfoot>
  <tr><td>합계</td><td>1910.91</td><td>1539만</td><td>-</td><td>-</td></tr> 
 </tfoot> 
